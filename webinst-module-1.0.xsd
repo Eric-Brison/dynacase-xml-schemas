@@ -12,11 +12,8 @@
         <xs:element name="post-install" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="pre-upgrade" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="post-upgrade" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
-        <xs:element name="pre-remove" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
-        <xs:element name="post-remove" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="pre-archive" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="post-archive" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
-        <xs:element name="pre-restore" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="post-restore" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="reconfigure" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
       </xs:choice>
