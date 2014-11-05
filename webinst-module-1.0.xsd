@@ -15,6 +15,7 @@
         <xs:element name="pre-archive" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="post-archive" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="post-restore" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="pre-delete" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="reconfigure" type="dcp:phaseActionListNodeType" minOccurs="0" maxOccurs="1"/>
       </xs:choice>
     </xs:sequence>
